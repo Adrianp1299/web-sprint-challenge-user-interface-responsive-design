@@ -6,23 +6,38 @@
 	<meta charset="utf-8">
 
 	<title>Sprint Challenge - Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/index.css"/>
 </head>
 
 <body>
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				BLOOMTECH BAR AND GRILL
+			<div class="see_thru">
+				<div>
+					<a href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
 
-				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+					<!-- nav -->
+					<nav>
+						<div class="nav">
+						<a href="menu.html">Menu</a>
+						<a href="reservations.html">Reservations</a>
+						<a href="special_offers.html">Special Offers</a>
+						<a href="#contact">Contact</a>
+						</div>
+					<div class="logo">
+						<div class="logos">
+						<i class="fa-brands fa-square-facebook fa-4x"></i>
+						<i class="fa-brands fa-square-twitter fa-4x"></i>
+						<i class="fa-brands fa-square-instagram fa-4x"></i>
+						</div>
+					</div>
+					</nav>
+				</div>
 			</div>
 		</header>
 
@@ -31,23 +46,44 @@
 			<div>
 				<h2>OUR FOOD</h2>
 
-				img/food-avocadotoast.jpg
+				<div class="mainimgs">
 
-				img/food-burger.jpg
+					<div>
+						<img src="img/food-avocadotoast.jpg"/>
+					</div>
 
-				img/food-poutine.jpg
+					<div>
+						<img src="img/food-burger.jpg"/>
+					</div>
 
-				img/food-ribs.jpg
+					<div>
+						<img src="img/food-poutine.jpg"/>
+					</div>
 
-				img/food-sandwich.jpg
+					<div>
+						<img src="img/food-ribs.jpg"/>
+					</div>
 
-				img/food-sausage.jpg
+					<div>
+						<img src="img/food-sandwich.jpg"/>
+					</div>
 
-				img/food-steak.jpg
+					<div>
+						<img src="img/food-sausage.jpg"/>
+					</div>
 
-				img/food-tacos.jpg
+					<div>
+						<img src="img/food-steak.jpg"/>
+					</div>
 
-				img/food-wings.jpg
+					<div>
+						<img src="img/food-tacos.jpg"/>
+					</div>
+
+					<div>
+						<img src="img/food-wings.jpg"/>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -59,8 +95,9 @@
 			<div class="about-container">
 				<h2>ABOUT US</h2>
 
-				<div id="cooks" class="pic">
-				</div>
+				<!-- <div id="cooks" class="pic">
+					<img src="img/staff-cooks.jpg"/>
+				</div> -->
 
 				<div class="text">
 					<h3>Good Food, Great People</h3>
@@ -73,8 +110,8 @@
 						shankle duis chicken dolore andouille do tenderloin qui.</p>
 				</div>
 
-				<div id="bartender" class="pic">
-				</div>
+				<!-- <div id="bartender" class="pic">
+				</div> -->
 			</div>
 		</section>
 
@@ -82,7 +119,7 @@
 		<div class="spacer"></div>
 
 		<!-- contact section -->
-		<section class="contact">
+		<section id="contact" class="contact">
 			<div class="contact-container">
 				<h2>CONTACT US</h2>
 
@@ -111,7 +148,7 @@
 						<h3>Contacts</h3>
 
 						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
+							<a id="phone" href="tel:999-999-9999">999-999-9999</a><br>
 							<a id="email" href="mailto:restaurant@bloomtech.com">restaurant@bloomtech.com</a>
 						</div>
 					</div>
@@ -126,12 +163,15 @@
 		<footer>
 			<!-- email signup -->
 			Join our mailing list!
-			Sign Up
+			<input type="text" id="email" name="email" placeholder="Email Address">
+			<button>Sign Up</button>
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+				<a href="menu.html">Menu</a>
+				<a href="reservations.html">Reservations</a>
+				<a href="special_offers.html">Special Offers</a>
+				<a href="#contact">Contact</a>
+			</nav>
 			<!-- copyright -->
 			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
 		</footer>
