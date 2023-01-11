@@ -292,6 +292,13 @@ footer {
     }
 
     /* footer section */
+    p {
+        color: white;
+    }
+    .end {
+        display: flex;
+        justify-content: space-around;
+    }
     footer {
         height: auto;
         padding-top: 2.5vh;
